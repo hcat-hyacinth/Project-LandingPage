@@ -1,10 +1,41 @@
+.container {
+    background-color: darkgreen;
+    color: white;
+    font-weight: bold;
+    display: inline-block
+	width: 80%;
+	margin: 0 auto;
+}
 
-<div{
-    h3 {
-        width: 50%;
-        height: 60px;
-        margin: 0;
-        padding: 0;
-        display: inline;
+header::after {
+  content: 
+  display: table;
+  clear: both;
+}
 
-    }div/>
+
+nav {
+    float: right;
+  }
+  
+  nav ul {
+    margin: 20px;
+    padding: 20px;
+    list-style: 
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-left: 20px;
+    padding-top: 10px;
+  
+    position: relative;
+    
+  }
+.container1 {
+    display: inline;
+    float: right;
+}
+.button {
+    margin: 20px
+}
