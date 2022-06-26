@@ -36,6 +36,11 @@ nav {
     display: inline;
     float: right;
 }
-.button {
+.media-box {
     margin: 20px
+}
+.mushiecontainer {
+display: flex;
+justify-content: center;
+flex-flow: row wrap;
 }
